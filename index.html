@@ -14,27 +14,28 @@
 
 <body>
   <main id="container-card">
-    <div id="image">
-      <img src="./assets/images/illustration-article.svg" alt="illustration-article" />
-    </div>
+    <figure id="image">
+      <img src="./assets/images/illustration-article.svg" alt="illustration of an article" />
+    </figure>
 
     <section id="content">
       <h1 id="learning">Learning</h1>
 
       <p id="date">Published 21 Dec 2023</p>
 
-      <h2 id="title-card">HTML & CSS foundations</h2>
+      <section aria-labelledby="title-card">
+        <h2 id="title-card">HTML & CSS foundations</h2>
 
-      <p id="description">
-        These languages are the backbone of every website, defining structure,
-        content, and presentation.
-      </p>
+        <p id="description">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
 
-      <div class="media">
-        <img id="profile" src="./assets/images/image-avatar.webp" alt="profile picture" />
-        <h3 id="user">Greg Hooper</h3>
-      </div>
-
+        <div class="media" aria-label="Author information">
+          <img id="profile" src="./assets/images/image-avatar.webp" alt="profile picture" />
+          <p id="user">Greg Hooper</p>
+        </div>
+      </section>
     </section>
     <!--<div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
